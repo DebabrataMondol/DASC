@@ -1,0 +1,341 @@
+/**---------------------------
+==============================
+=====Header Styling start=====
+==============================
+---------------------------**/
+
+#home  {
+	background: url('../images/bg-img-01.jpg');
+	background-size: cover;
+	height: 100vh;
+}
+.myNav .navbar-default {
+	border-radius: 0;
+	background: #333; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#333, transparent); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#333, transparent); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#333, transparent); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#333, transparent); /* Standard syntax */
+	border: none;
+	margin-bottom: 0;
+}
+.myNav .navbar-brand {
+	color: #FFF;
+}
+.myNav .navbar-nav > li a {
+	color: #FFF;
+	font-size: 12pt;
+	text-transform: uppercase;
+}
+.navbar-wrapper {
+	padding: 30px 0;
+}
+.slogan {
+	padding: 130px;
+}
+.slogan h1 {
+	color: #FFF;
+	font-family: sans-serif;
+	font-size: 52pt;
+}
+
+/**---------------------------
+==============================
+=====Header Styling End=====
+==============================
+---------------------------**/
+
+/**---------------------------
+==============================
+=====Section1 Styling start=====
+==============================
+---------------------------**/
+
+#about_us {
+	background: transparent;
+	height: 100vh;
+}
+.img-box {
+	display: block;
+	position: relative;
+	padding: 20px 100px;
+}
+.img-sm {
+	position: absolute;
+	border: 3px solid #FFF;
+}
+.img-lg {
+	position: absolute;
+	border: 3px solid #FFF;
+	right: 100px;
+	z-index: -1;
+}
+
+.button2{
+	background-color: #333;
+	margin-left: 10px;
+}
+
+/**---------------------------
+==============================
+=====Section1 Styling End=====
+==============================
+---------------------------**/
+
+
+/**---------------------------
+==============================
+=====Section2 Styling start=====
+==============================
+---------------------------**/
+#customer_opinion_bg{
+	background: url('../images/bg_2.jpg');
+	background-size: cover;
+	height: 120vh;
+}
+
+#customer_opinion_bg h3{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 16pt;
+	padding: 100px 0px;
+	font-family: 'Fruktur';
+	color: #FDFCF9;
+}
+.opinion{
+	margin-left: 20px;
+}
+.img-man1{
+	margin-left: 80px;
+	margin-top: 20px;
+}
+.img-man2{
+	margin-left: 80px;
+	margin-top: 20px;
+}
+.img-man3{
+	margin-left: 80px;
+	margin-top: 20px;
+}
+.img-man4{
+	margin-left: 80px;
+	margin-top: 20px;
+}
+
+
+/**---------------------------
+==============================
+=====Section2 Styling end=====
+==============================
+---------------------------**/
+
+
+
+/**---------------------------
+==============================
+=====Section3 Styling start=====
+==============================
+---------------------------**/
+#our_items{
+	height: 150vh;
+}
+#our_items h3{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 26pt;
+	padding: 50px 0px;
+	font-family: 'Tangerine',serif;
+	color: #999;
+	font-weight: 600;
+	text-shadow: 4px 4px 4px #aaa;
+}
+
+
+
+
+
+
+
+
+/**---------------------------
+==============================
+=====Section2 Styling end=====
+==============================
+---------------------------**/
+
+
+
+
+/**---------------------------
+==============================
+=====Section4 Styling start=====
+==============================
+---------------------------**/
+
+#theme_part{
+	background: url('../images/bg-img-04.jpg');
+	background-size: cover;
+	height: 60vh;
+}
+
+#theme_part h3{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 16pt;
+	padding: 100px 0px;
+	font-family: 'Fruktur';
+	color: #FDFCF9;
+}
+
+/**---------------------------
+==============================
+=====Section4 Styling End=====
+==============================
+---------------------------**/
+
+
+/**---------------------------
+==============================
+=====Section5 Styling start=====
+==============================
+---------------------------**/
+
+#Our_staff{
+	height: 100vh;
+}
+#Our_staff h3{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 16pt;
+	padding: 100px 0px;
+	font-family: 'Fruktur';
+	color: #999;
+	height: 30vh;
+	 text-shadow: 4px 4px 4px #aaa;
+}
+.staff_1 img{
+	margin-left: 180px;
+	border:5px solid #666;
+}
+.staff_2 img{
+	margin-left: 100px;
+	border:5px solid #666;
+}
+.staff_3 img{
+	margin-left: 20px;
+	border:5px solid #666;
+}
+.staff-no1 h2{
+   margin-left: 180px;
+   font-size: 25pt;
+   font-family: 'Clicker+Script';
+}
+.staff-no1 h4{
+	margin-left: 150px;
+	font-size: 20pt;
+	font-family: 'Clicker+Script';
+}
+.staff-no1 p{
+	margin-left: 100px;
+	font-size: 15pt;
+}
+.staff-no2 h2{
+   margin-left: 100px;
+   font-size: 25pt;
+   font-family: 'Clicker+Script';
+}
+.staff-no2 h4{
+	margin-left: 80px;
+	font-size: 20pt;
+	font-family: 'Clicker+Script';
+}
+.staff-no2 p{
+	margin-left: 50px;
+	font-size: 15pt;
+}
+
+.staff-no3 h2{
+   margin-left:45px;
+   font-size: 25pt;
+   font-family: 'Clicker+Script';
+}
+.staff-no3 h4{
+	margin-left:30px;
+	font-size: 20pt;
+	font-family: 'Clicker+Script';
+}
+.staff-no3 p{
+	margin-left:0px;
+	font-size: 15pt;
+}
+
+
+/**---------------------------
+==============================
+=====Section5 Styling end=====
+==============================
+---------------------------**/
+
+/**---------------------------
+==============================
+=====Section6 Styling start=====
+==============================
+---------------------------**/
+
+#theme-part2{
+	background: url('../images/bg-img-16.jpg');
+	background-size: cover;
+	height: 60vh;
+}
+.theme-2{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 16pt;
+	padding: 100px 0px;
+	font-family:'Clicker+Script';
+	color: #FDFCF9;
+}
+/**---------------------------
+==============================
+=====Section6 Styling start=====
+==============================
+---------------------------**/
+
+/**---------------------------
+==============================
+=====Section7 Styling start=====
+==============================
+---------------------------**/
+
+
+/**---------------------------
+==============================
+=====Section7 Styling end=====
+==============================
+---------------------------**/
+/**---------------------------
+==============================
+=====Footer Styling start=====
+==============================
+---------------------------**/
+.footer_part{
+	background: url('../images/bg-img-06.jpg');
+	background-size: cover;
+	height: 70vh;
+}
+.footer_part h2{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 36pt;
+	padding: 60px 0px;
+	font-family:'Tangerine',serif;
+	color: #FFFFFF;
+	font-weight: 600;
+	text-shadow: 4px 4px 4px 4px #aaa;
+}
+
+/**---------------------------
+==============================
+=====Footer Styling end=====
+==============================
+---------------------------**/

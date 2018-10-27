@@ -1,0 +1,41 @@
+#home {
+background:url('../images/bg-7.jpg');
+background-size:cover;
+height: 100vh;
+}
+.myNav .navbar-default {
+	border-radius: 0;
+	border: none;
+	margin-bottom: 0;
+	background: #333; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#999, transparent); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#999, transparent); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#999, transparent); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#999, transparent); /* Standard syntax */
+}
+.navbar-brand{
+	font-size: 20pt;
+	font-family: 'Clicker+Script';
+	margin-top: 20px;
+	font-weight: 600;
+}
+.navbar-right{
+	font-size: 12pt;
+	margin-top: 20px;
+	font-weight: 600;
+	color:#030303;
+}
+.bootstrap h1{
+	font-size: 100PX;
+	color: #FFFFFF;
+	margin-top: 90px;
+}
+.bootstrap h3{
+	color: #FFFFFF;
+	font-family: 'Fruktur';
+}
+#text-center{
+    background-color: #000000;
+    background-size:cover;
+    height: 100vh;
+}
